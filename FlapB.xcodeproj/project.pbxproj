@@ -21,6 +21,12 @@
 		7764AE42196CC04300C865CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7764AE24196CC04300C865CF /* UIKit.framework */; };
 		7764AE4A196CC04300C865CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7764AE48196CC04300C865CF /* InfoPlist.strings */; };
 		7764AE4C196CC04300C865CF /* FlapBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7764AE4B196CC04300C865CF /* FlapBTests.m */; };
+		7764AE59196CC27800C865CF /* gamgeBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 7764AE55196CC27800C865CF /* gamgeBG.png */; };
+		7764AE5A196CC27800C865CF /* BD.png in Resources */ = {isa = PBXBuildFile; fileRef = 7764AE56196CC27800C865CF /* BD.png */; };
+		7764AE5B196CC27800C865CF /* LINE.png in Resources */ = {isa = PBXBuildFile; fileRef = 7764AE57196CC27800C865CF /* LINE.png */; };
+		7764AE5C196CC27800C865CF /* BU.png in Resources */ = {isa = PBXBuildFile; fileRef = 7764AE58196CC27800C865CF /* BU.png */; };
+		7764AE5E196CCC6600C865CF /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 7764AE5D196CCC6600C865CF /* bg.png */; };
+		7764AE61196CCE6E00C865CF /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7764AE60196CCE6E00C865CF /* GameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,13 @@
 		7764AE47196CC04300C865CF /* FlapBTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlapBTests-Info.plist"; sourceTree = "<group>"; };
 		7764AE49196CC04300C865CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7764AE4B196CC04300C865CF /* FlapBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlapBTests.m; sourceTree = "<group>"; };
+		7764AE55196CC27800C865CF /* gamgeBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamgeBG.png; sourceTree = "<group>"; };
+		7764AE56196CC27800C865CF /* BD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BD.png; sourceTree = "<group>"; };
+		7764AE57196CC27800C865CF /* LINE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LINE.png; sourceTree = "<group>"; };
+		7764AE58196CC27800C865CF /* BU.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BU.png; sourceTree = "<group>"; };
+		7764AE5D196CCC6600C865CF /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		7764AE5F196CCE6E00C865CF /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameViewController.h; path = ../GameViewController.h; sourceTree = "<group>"; };
+		7764AE60196CCE6E00C865CF /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameViewController.m; path = ../GameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +130,8 @@
 				7764AE32196CC04300C865CF /* Main.storyboard */,
 				7764AE35196CC04300C865CF /* ViewController.h */,
 				7764AE36196CC04300C865CF /* ViewController.m */,
+				7764AE5F196CCE6E00C865CF /* GameViewController.h */,
+				7764AE60196CCE6E00C865CF /* GameViewController.m */,
 				7764AE38196CC04300C865CF /* Images.xcassets */,
 				7764AE27196CC04300C865CF /* Supporting Files */,
 			);
@@ -126,6 +141,11 @@
 		7764AE27196CC04300C865CF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7764AE5D196CCC6600C865CF /* bg.png */,
+				7764AE55196CC27800C865CF /* gamgeBG.png */,
+				7764AE56196CC27800C865CF /* BD.png */,
+				7764AE57196CC27800C865CF /* LINE.png */,
+				7764AE58196CC27800C865CF /* BU.png */,
 				7764AE28196CC04300C865CF /* FlapB-Info.plist */,
 				7764AE29196CC04300C865CF /* InfoPlist.strings */,
 				7764AE2C196CC04300C865CF /* main.m */,
@@ -228,7 +248,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7764AE39196CC04300C865CF /* Images.xcassets in Resources */,
+				7764AE59196CC27800C865CF /* gamgeBG.png in Resources */,
+				7764AE5E196CCC6600C865CF /* bg.png in Resources */,
+				7764AE5B196CC27800C865CF /* LINE.png in Resources */,
+				7764AE5C196CC27800C865CF /* BU.png in Resources */,
 				7764AE2B196CC04300C865CF /* InfoPlist.strings in Resources */,
+				7764AE5A196CC27800C865CF /* BD.png in Resources */,
 				7764AE34196CC04300C865CF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7764AE61196CCE6E00C865CF /* GameViewController.m in Sources */,
 				7764AE37196CC04300C865CF /* ViewController.m in Sources */,
 				7764AE31196CC04300C865CF /* AppDelegate.m in Sources */,
 				7764AE2D196CC04300C865CF /* main.m in Sources */,
